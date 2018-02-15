@@ -37,7 +37,7 @@ The main uses of floats are to lay out columns and float text around an image.
 
 Relative positioning is to move an element relative to its own default.
 
-Absolute positioning is to move an element to anywhere in the page (or the element of <html> or the edge of its positioned parent). But if all the values are 0, what will happen?
+Absolute positioning is to move an element to anywhere in the page (or the element of \<html\> or the edge of its positioned parent). But if all the values are 0, what will happen?
 
 Fixed is to the browser viewport's edges.
 
