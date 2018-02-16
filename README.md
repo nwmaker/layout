@@ -52,6 +52,13 @@ The element's content is wrapped by adding any padding, border, and margin.
 ## HTML table vs. CSS table
 
 ## flexible boxes
+1-D layout
+
+## Grid layout
+2-D layout, columns and rows, gutter (gap between each row or column)
+
+
+
 
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
