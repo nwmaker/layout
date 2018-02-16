@@ -24,7 +24,9 @@ body {
 }
 ```
 
-## basic: floats
+## basic boxes
+
+### basic: floats
 
 All layout techniques tend to override the default behavior of the browser.
 * position: static (the default value), relative, absolute and fixed
@@ -33,7 +35,7 @@ All layout techniques tend to override the default behavior of the browser.
 
 The main uses of floats are to lay out columns and float text around an image.
 
-## basic: position (top, bottom, left, and right)
+### basic: position (top, bottom, left, and right)
 
 Relative positioning is to move an element relative to its own default.
 
@@ -44,9 +46,12 @@ Fixed is to the browser viewport's edges.
 Positioned element is over non-positioned ones.
 The z-index value of a positioned element is auto (0). To change the stacking order, change the z-index value explicitly. The higher z-index value goes above the lower one.
 
-## basic: box model - the content in the box
+### basic: box model - the content in the box
 The element's content is wrapped by adding any padding, border, and margin.
 
+## HTML table vs. CSS table
+
+## flexible boxes
 
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
