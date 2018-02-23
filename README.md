@@ -62,4 +62,5 @@ The element's content is wrapped by adding any padding, border, and margin.
 
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
+* [Hamburger Menu with REACT](https://codepen.io/naturalclar/pen/zEwvbg)
 
