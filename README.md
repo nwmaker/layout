@@ -65,16 +65,35 @@ The element's content is wrapped by adding any padding, border, and margin.
 “Is this text secondary? Let’s use a lighter color.” (instead of smaller)
 
 Try and stick to two or three colors:
-** A dark (but not black) color for primary content (like the headline of an article) (When you put pure black next to a set of meticulously picked colors, the black overpowers everything else)
-** A grey for secondary content (like the date an article was published)
-** A lighter grey for ancillary content (maybe the copyright notice in a footer)
+- A dark (but not black) color for primary content (like the headline of an article) (When you put pure black next to a set of meticulously picked colors, the black overpowers everything else)
+- A grey for secondary content (like the date an article was published)
+- A lighter grey for ancillary content (maybe the copyright notice in a footer)
 
 Similarly, two font weights is usually enough for UI work:
-A normal font weight (400 or 500 depending on the font) for most text
-A heavier font weight (600 or 700) for text you want to emphasize
+- A normal font weight (400 or 500 depending on the font) for most text
+- A heavier font weight (600 or 700) for text you want to emphasize
+
+* Don’t use grey text on colored backgrounds
+- Making text a lighter grey is a great way to de-emphasize it on white backgrounds, but it doesn’t look so great on colored backgrounds.
+- Making the text closer to the background color is what actually helps create hierarchy, not making it light grey. For example:
+  background: hsl(176, 77%, 35%) and color: hsl(176, 81%, 85%)
+
+* offset your shadows
+From 
+```
+box-shadow: 0 0 12px 0 hsla(0, 0%, 0%, 0.2)
+```
+To
+```
+box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)
+```
+
+* use fewer borders
+
+
 
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
 * [Hamburger Menu with REACT](https://codepen.io/naturalclar/pen/zEwvbg)
 * [Never use black](https://ianstormtaylor.com/design-tip-never-use-black/)
-
+* [Material design](https://material.io/guidelines/material-design/elevation-shadows.html)
