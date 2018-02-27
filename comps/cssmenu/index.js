@@ -6,11 +6,14 @@ export default () => (
     <App />
 
     <style jsx global>{`
+      :root {
+        --bg: coral;
+      }
       .css-menu {
         font-family: 'Fira Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
         font-weight: 400;
         font-size: 24px;
-        background: #42bd41;
+        background-color: var(--bg);
       }
       #menu-button {
         position: fixed;
