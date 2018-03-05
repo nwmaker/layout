@@ -92,6 +92,11 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)
 
 ## [react transition](https://dev.to/underdogio/adding-animations-to-your-react-app-with-react-transition-group)
 
+* try react 16.3 createContext()
+wip
+[Replace Redux with context api](https://medium.com/@DidierFranc/replacing-redux-with-the-new-react-context-api-8f5d01a00e8c)
+
+
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
 * [Hamburger Menu with REACT](https://codepen.io/naturalclar/pen/zEwvbg)
