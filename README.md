@@ -96,6 +96,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2)
 wip
 [Replace Redux with context api](https://medium.com/@DidierFranc/replacing-redux-with-the-new-react-context-api-8f5d01a00e8c)
 
+* [reducer example](https://codesandbox.io/s/q992k7zk4)
 
 ## references
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
